@@ -1,0 +1,22 @@
+# Assembler output
+*.hack
+
+# Symbol table artefacts written at runtime
+symbol.csv
+counter.txt
+
+# Compiled binaries from the C concepts exercises (keep the source)
+**/concepts/*
+!**/concepts/*.c
+
+# Compiled objects
+*.o
+*.out
+a.out
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
