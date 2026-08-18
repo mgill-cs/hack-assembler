@@ -7,13 +7,14 @@ Implemented independently in **Python** and **PHP**. A **C** version is in progr
 ## Repository layout
 
 ```
+04 - Machine Language/
+    fill.asm             complete implementation
+    mult.asm             complete implementation
 06 - Assembler/
     Python/              complete implementation
     PHP/                 complete implementation
     *.asm                test programs supplied with the course
 ```
-
-The project 4 assembly programs (`mult.asm`, `fill.asm`) will be added shortly.
 
 ## The Hack instruction set
 
