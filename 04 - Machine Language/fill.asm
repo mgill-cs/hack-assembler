@@ -1,0 +1,39 @@
+// 	Fill Sreen
+// 	Usage: 	Press any keyboard key to turn screen black
+(IF)
+	@n
+	M=0
+	@KBD
+	D=M
+	@THEN
+	D;JGT
+(ELSE)
+	@n
+	D=M
+	@SCREEN
+	A=D+A
+	M=0
+	D=D+1
+	@n
+	M=D
+	@8191
+	D=D-A
+	@ELSE
+	D;JLT
+	@IF
+	0;JMP
+(THEN)
+	@n
+	D=M
+	@SCREEN
+	A=D+A
+	M=-1
+	D=D+1
+	@n
+	M=D
+	@8191
+	D=D-A
+	@THEN
+	D;JLT
+	@IF
+	0;JMP
